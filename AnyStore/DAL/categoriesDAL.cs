@@ -100,6 +100,8 @@ namespace AnyStore.DAL
                 conn.Close();
             }
 
+            isSucces = true;
+
             return isSucces;
         }
         #endregion
