@@ -13,6 +13,7 @@ namespace AnyStore.DAL
 {
     class productsDAL
     {
+        
         //Creating STATI String Method for DB Connection
         static string myconnstrng = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
 
