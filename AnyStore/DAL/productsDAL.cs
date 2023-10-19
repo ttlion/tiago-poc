@@ -50,8 +50,6 @@ namespace AnyStore.DAL
                 conn.Close();
             }
 
-            dt = new DataTable();
-
             return dt;
         }
         #endregion
