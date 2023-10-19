@@ -101,6 +101,7 @@ namespace AnyStore.DAL
             }
 
             isSucces = false;
+            isSucces = false;
 
             return isSucces;
         }
