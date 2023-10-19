@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AnyStore.DAL
 {
-    class productsDAL
+    class CalculationHelper
     {
         
         //Creating STATI String Method for DB Connection

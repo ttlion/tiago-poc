@@ -14,9 +14,9 @@ using System.Windows.Forms;
 
 namespace AnyStore.UI
 {
-    public partial class frmPurchaseAndSales : Form
+    public partial class PolicyDocumentRepository : Form
     {
-        public frmPurchaseAndSales()
+        public PolicyDocumentRepository()
         {
             InitializeComponent();
         }
@@ -26,7 +26,7 @@ namespace AnyStore.UI
             this.Hide();
         }
         DeaCustDAL dcDAL = new DeaCustDAL();
-        productsDAL pDAL = new productsDAL();
+        CalculationHelper pDAL = new CalculationHelper();
         userDAL uDAL = new userDAL();
         transactionDAL tDAL = new transactionDAL();
         transactionDetailDAL tdDAL = new transactionDetailDAL();

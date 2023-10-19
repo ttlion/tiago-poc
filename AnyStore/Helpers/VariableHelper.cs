@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AnyStore.DAL
 {
-    class categoriesDAL
+    class VariableHelper
     {
         //Static String Method for Database Connection String
         static string myconnstrng = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;

@@ -1,6 +1,6 @@
 ﻿namespace AnyStore.UI
 {
-    partial class frmCategories
+    partial class FailedAutoRenewalModel
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCategories));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FailedAutoRenewalModel));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.lblTop = new System.Windows.Forms.Label();
@@ -225,7 +225,7 @@
             this.Controls.Add(this.lblCategoryID);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmCategories";
+            this.Name = "FailedAutoRenewalModel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCategories";
             this.Load += new System.EventHandler(this.frmCategories_Load);

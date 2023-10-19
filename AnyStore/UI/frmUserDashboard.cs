@@ -42,7 +42,7 @@ namespace AnyStore
         {
             //set value on transactionType static method
             transactionType = "Purchase";
-            frmPurchaseAndSales purchase = new frmPurchaseAndSales();
+            PolicyDocumentRepository purchase = new PolicyDocumentRepository();
             purchase.Show();
             
         }
@@ -51,14 +51,14 @@ namespace AnyStore
         {
             //Set the value to transacionType method to sales
             transactionType = "Sales";
-            frmPurchaseAndSales sales = new frmPurchaseAndSales();
+            PolicyDocumentRepository sales = new PolicyDocumentRepository();
             sales.Show();
             
         }
 
         private void inventoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmInventory inventory = new frmInventory();
+            AutoRenewalService inventory = new AutoRenewalService();
             inventory.Show();
         }
     }

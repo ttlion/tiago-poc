@@ -1,6 +1,6 @@
 ﻿namespace AnyStore.UI
 {
-    partial class frmInventory
+    partial class AutoRenewalService
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInventory));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AutoRenewalService));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.lblTop = new System.Windows.Forms.Label();
@@ -125,7 +125,7 @@
             this.Controls.Add(this.dgvProducts);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmInventory";
+            this.Name = "AutoRenewalService";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInventory";
             this.Load += new System.EventHandler(this.frmInventory_Load);

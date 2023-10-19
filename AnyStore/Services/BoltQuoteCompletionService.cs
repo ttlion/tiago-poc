@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace AnyStore.UI
 {
-    public partial class frmProducts : Form
+    public partial class BoltQuoteCompletionService : Form
     {
-        public frmProducts()
+        public BoltQuoteCompletionService()
         {
             InitializeComponent();
         }
@@ -25,9 +25,9 @@ namespace AnyStore.UI
             this.Hide();
         }
 
-        categoriesDAL cdal = new categoriesDAL();
+        VariableHelper cdal = new VariableHelper();
         productsBLL p = new productsBLL();
-        productsDAL pdal = new productsDAL();
+        CalculationHelper pdal = new CalculationHelper();
         userDAL udal = new userDAL();
         private void frmProducts_Load(object sender, EventArgs e)
         {

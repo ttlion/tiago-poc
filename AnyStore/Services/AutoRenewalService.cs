@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace AnyStore.UI
 {
-    public partial class frmInventory : Form
+    public partial class AutoRenewalService : Form
     {
-        public frmInventory()
+        public AutoRenewalService()
         {
             InitializeComponent();
         }
-        categoriesDAL cdal = new categoriesDAL();
-        productsDAL pdal = new productsDAL();
+        VariableHelper cdal = new VariableHelper();
+        CalculationHelper pdal = new CalculationHelper();
         private void pictureBoxClose_Click(object sender, EventArgs e)
         {
             //Addd Functionality to Close this form

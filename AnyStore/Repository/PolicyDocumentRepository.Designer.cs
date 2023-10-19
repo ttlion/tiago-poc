@@ -1,6 +1,6 @@
 ﻿namespace AnyStore.UI
 {
-    partial class frmPurchaseAndSales
+    partial class PolicyDocumentRepository
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPurchaseAndSales));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PolicyDocumentRepository));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.lblTop = new System.Windows.Forms.Label();
@@ -590,7 +590,7 @@
             this.Controls.Add(this.pnlDeaCust);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmPurchaseAndSales";
+            this.Name = "PolicyDocumentRepository";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Purchase and Sales";
             this.Load += new System.EventHandler(this.frmPurchaseAndSales_Load);

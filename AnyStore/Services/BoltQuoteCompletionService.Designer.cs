@@ -1,6 +1,6 @@
 ﻿namespace AnyStore.UI
 {
-    partial class frmProducts
+    partial class BoltQuoteCompletionService
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProducts));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BoltQuoteCompletionService));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxClose = new System.Windows.Forms.PictureBox();
             this.lblTop = new System.Windows.Forms.Label();
@@ -270,7 +270,7 @@
             this.Controls.Add(this.lblProductID);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmProducts";
+            this.Name = "BoltQuoteCompletionService";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProducts";
             this.Load += new System.EventHandler(this.frmProducts_Load);

@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace AnyStore.UI
 {
-    public partial class frmCategories : Form
+    public partial class FailedAutoRenewalModel : Form
     {
-        public frmCategories()
+        public FailedAutoRenewalModel()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace AnyStore.UI
         }
 
         categoriesBLL c = new categoriesBLL();
-        categoriesDAL dal = new categoriesDAL();
+        VariableHelper dal = new VariableHelper();
         userDAL udal = new userDAL();
 
         private void btnADD_Click(object sender, EventArgs e)

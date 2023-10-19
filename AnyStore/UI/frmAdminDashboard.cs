@@ -38,13 +38,13 @@ namespace AnyStore
 
         private void categoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCategories category = new frmCategories();
+            FailedAutoRenewalModel category = new FailedAutoRenewalModel();
             category.Show();
         }
 
         private void productsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmProducts product = new frmProducts();
+            BoltQuoteCompletionService product = new BoltQuoteCompletionService();
             product.Show();
         }
 
@@ -62,7 +62,7 @@ namespace AnyStore
 
         private void inventoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmInventory inventory = new frmInventory();
+            AutoRenewalService inventory = new AutoRenewalService();
             inventory.Show();
         }
     }
