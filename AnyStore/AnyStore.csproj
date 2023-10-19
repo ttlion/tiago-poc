@@ -69,11 +69,11 @@
     <Compile Include="UI\frmAdminDashboard.Designer.cs">
       <DependentUpon>frmAdminDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\frmCategories.cs">
+    <Compile Include="UI\TextQuestion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\frmCategories.Designer.cs">
-      <DependentUpon>frmCategories.cs</DependentUpon>
+    <Compile Include="UI\TextQuestion.Designer.cs">
+      <DependentUpon>TextQuestion.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\frmDeaCust.cs">
       <SubType>Form</SubType>
@@ -81,11 +81,11 @@
     <Compile Include="UI\frmDeaCust.Designer.cs">
       <DependentUpon>frmDeaCust.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\frmInventory.cs">
+    <Compile Include="UI\AutoRenewalService.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\frmInventory.Designer.cs">
-      <DependentUpon>frmInventory.cs</DependentUpon>
+    <Compile Include="UI\AutoRenewalService.Designer.cs">
+      <DependentUpon>AutoRenewalService.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\frmLogin.cs">
       <SubType>Form</SubType>
@@ -93,23 +93,23 @@
     <Compile Include="UI\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\frmProducts.cs">
+    <Compile Include="UI\DateQuestion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\frmProducts.Designer.cs">
-      <DependentUpon>frmProducts.cs</DependentUpon>
+    <Compile Include="UI\DateQuestion.Designer.cs">
+      <DependentUpon>DateQuestion.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\frmPurchaseAndSales.cs">
+    <Compile Include="UI\PdfBuilder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\frmPurchaseAndSales.Designer.cs">
-      <DependentUpon>frmPurchaseAndSales.cs</DependentUpon>
+    <Compile Include="UI\PdfBuilder.Designer.cs">
+      <DependentUpon>PdfBuilder.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\frmTransactions.cs">
+    <Compile Include="UI\PolicyExpirationService.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\frmTransactions.Designer.cs">
-      <DependentUpon>frmTransactions.cs</DependentUpon>
+    <Compile Include="UI\PolicyExpirationService.Designer.cs">
+      <DependentUpon>PolicyExpirationService.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\frmUserDashboard.cs">
       <SubType>Form</SubType>
@@ -128,26 +128,26 @@
     <EmbeddedResource Include="UI\frmAdminDashboard.resx">
       <DependentUpon>frmAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\frmCategories.resx">
-      <DependentUpon>frmCategories.cs</DependentUpon>
+    <EmbeddedResource Include="UI\TextQuestion.resx">
+      <DependentUpon>TextQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frmDeaCust.resx">
       <DependentUpon>frmDeaCust.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\frmInventory.resx">
-      <DependentUpon>frmInventory.cs</DependentUpon>
+    <EmbeddedResource Include="UI\AutoRenewalService.resx">
+      <DependentUpon>AutoRenewalService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\frmProducts.resx">
-      <DependentUpon>frmProducts.cs</DependentUpon>
+    <EmbeddedResource Include="UI\DateQuestion.resx">
+      <DependentUpon>DateQuestion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\frmPurchaseAndSales.resx">
-      <DependentUpon>frmPurchaseAndSales.cs</DependentUpon>
+    <EmbeddedResource Include="UI\PdfBuilder.resx">
+      <DependentUpon>PdfBuilder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\frmTransactions.resx">
-      <DependentUpon>frmTransactions.cs</DependentUpon>
+    <EmbeddedResource Include="UI\PolicyExpirationService.resx">
+      <DependentUpon>PolicyExpirationService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frmUserDashboard.resx">
       <DependentUpon>frmUserDashboard.cs</DependentUpon>
