@@ -55,11 +55,11 @@
     <Compile Include="BLL\transactionDetailBLL.cs" />
     <Compile Include="BLL\transactionsBLL.cs" />
     <Compile Include="BLL\userBLL.cs" />
-    <Compile Include="Documents\PdfBuilder.cs">
+    <Compile Include="Repository\PolicyDocumentRepository.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Documents\PdfBuilder.Designer.cs">
-      <DependentUpon>PdfBuilder.cs</DependentUpon>
+    <Compile Include="Repository\PolicyDocumentRepository.Designer.cs">
+      <DependentUpon>PolicyDocumentRepository.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\VariableHelper.cs" />
     <Compile Include="Helpers\DeaCustDAL.cs" />
@@ -75,17 +75,23 @@
     <Compile Include="Services\AutoRenewalService.Designer.cs">
       <DependentUpon>AutoRenewalService.cs</DependentUpon>
     </Compile>
+    <Compile Include="Services\BoltQuoteCompletionService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\BoltQuoteCompletionService.Designer.cs">
+      <DependentUpon>BoltQuoteCompletionService.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\frmAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\frmAdminDashboard.Designer.cs">
       <DependentUpon>frmAdminDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\TextQuestion.cs">
+    <Compile Include="UI\FailedAutoRenewalModel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\TextQuestion.Designer.cs">
-      <DependentUpon>TextQuestion.cs</DependentUpon>
+    <Compile Include="UI\FailedAutoRenewalModel.Designer.cs">
+      <DependentUpon>FailedAutoRenewalModel.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\frmDeaCust.cs">
       <SubType>Form</SubType>
@@ -98,12 +104,6 @@
     </Compile>
     <Compile Include="UI\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI\DateQuestion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\DateQuestion.Designer.cs">
-      <DependentUpon>DateQuestion.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\PolicyExpirationService.cs">
       <SubType>Form</SubType>
@@ -125,26 +125,26 @@
     <Compile Include="UI\frmUsers.Designer.cs">
       <DependentUpon>frmUsers.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Documents\PdfBuilder.resx">
-      <DependentUpon>PdfBuilder.cs</DependentUpon>
+    <EmbeddedResource Include="Repository\PolicyDocumentRepository.resx">
+      <DependentUpon>PolicyDocumentRepository.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Services\AutoRenewalService.resx">
       <DependentUpon>AutoRenewalService.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Services\BoltQuoteCompletionService.resx">
+      <DependentUpon>BoltQuoteCompletionService.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\frmAdminDashboard.resx">
       <DependentUpon>frmAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\TextQuestion.resx">
-      <DependentUpon>TextQuestion.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FailedAutoRenewalModel.resx">
+      <DependentUpon>FailedAutoRenewalModel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frmDeaCust.resx">
       <DependentUpon>frmDeaCust.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\DateQuestion.resx">
-      <DependentUpon>DateQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PolicyExpirationService.resx">
       <DependentUpon>PolicyExpirationService.cs</DependentUpon>
