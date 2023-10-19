@@ -55,14 +55,26 @@
     <Compile Include="BLL\transactionDetailBLL.cs" />
     <Compile Include="BLL\transactionsBLL.cs" />
     <Compile Include="BLL\userBLL.cs" />
-    <Compile Include="DAL\categoriesDAL.cs" />
-    <Compile Include="DAL\DeaCustDAL.cs" />
-    <Compile Include="DAL\DGVPrinter.cs" />
-    <Compile Include="DAL\loginDAL.cs" />
-    <Compile Include="DAL\productsDAL.cs" />
-    <Compile Include="DAL\transactionDAL.cs" />
-    <Compile Include="DAL\transactionDetailDAL.cs" />
-    <Compile Include="DAL\userDAL.cs" />
+    <Compile Include="Documents\PdfBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\PdfBuilder.Designer.cs">
+      <DependentUpon>PdfBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\VariableHelper.cs" />
+    <Compile Include="Helpers\DeaCustDAL.cs" />
+    <Compile Include="Helpers\DGVPrinter.cs" />
+    <Compile Include="Helpers\loginDAL.cs" />
+    <Compile Include="Helpers\CalculationHelper.cs" />
+    <Compile Include="Helpers\transactionDAL.cs" />
+    <Compile Include="Helpers\transactionDetailDAL.cs" />
+    <Compile Include="Helpers\userDAL.cs" />
+    <Compile Include="Services\AutoRenewalService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services\AutoRenewalService.Designer.cs">
+      <DependentUpon>AutoRenewalService.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\frmAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,12 +93,6 @@
     <Compile Include="UI\frmDeaCust.Designer.cs">
       <DependentUpon>frmDeaCust.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\AutoRenewalService.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\AutoRenewalService.Designer.cs">
-      <DependentUpon>AutoRenewalService.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,12 +104,6 @@
     </Compile>
     <Compile Include="UI\DateQuestion.Designer.cs">
       <DependentUpon>DateQuestion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI\PdfBuilder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\PdfBuilder.Designer.cs">
-      <DependentUpon>PdfBuilder.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\PolicyExpirationService.cs">
       <SubType>Form</SubType>
@@ -125,6 +125,12 @@
     <Compile Include="UI\frmUsers.Designer.cs">
       <DependentUpon>frmUsers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Documents\PdfBuilder.resx">
+      <DependentUpon>PdfBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services\AutoRenewalService.resx">
+      <DependentUpon>AutoRenewalService.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\frmAdminDashboard.resx">
       <DependentUpon>frmAdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,17 +140,11 @@
     <EmbeddedResource Include="UI\frmDeaCust.resx">
       <DependentUpon>frmDeaCust.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\AutoRenewalService.resx">
-      <DependentUpon>AutoRenewalService.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\DateQuestion.resx">
       <DependentUpon>DateQuestion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\PdfBuilder.resx">
-      <DependentUpon>PdfBuilder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PolicyExpirationService.resx">
       <DependentUpon>PolicyExpirationService.cs</DependentUpon>
