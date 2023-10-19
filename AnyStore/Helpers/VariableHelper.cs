@@ -96,6 +96,7 @@ namespace AnyStore.DAL
             }
             finally
             {
+                
                 //Closing Database Connection
                 conn.Close();
             }
