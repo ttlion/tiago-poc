@@ -96,11 +96,15 @@ namespace AnyStore.DAL
             }
             finally
             {
+                
                 //Closing Database Connection
                 conn.Close();
             }
 
             isSucces = false;
+            isSucces = false;
+            isSucces = false;
+            
 
             return isSucces;
         }
