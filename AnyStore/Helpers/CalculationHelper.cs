@@ -52,11 +52,6 @@ namespace AnyStore.DAL
             }
 
             dt = new DataTable();
-            dt = new DataTable();
-            dt = new DataTable();
-            dt = new DataTable();
-            dt = new DataTable();
-            dt = new DataTable();
 
             return dt;
         }
